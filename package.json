@@ -1,20 +1,24 @@
 {
-  "name": "finance-app-api-v2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "eslint": "^8.57.1",
-    "globals": "^17.0.0",
-    "prettier": "^3.8.0",
-    "typescript-eslint": "^8.53.0"
-  }
+    "name": "finance-app-api-v2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "npx husky install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.39.2",
+        "eslint": "^8.57.1",
+        "git-commit-msg-linter": "^5.0.4",
+        "globals": "^17.0.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.3",
+        "prettier": "^3.8.0",
+        "typescript-eslint": "^8.53.0"
+    }
 }
